@@ -1,0 +1,44 @@
+/* style.css */
+
+body {
+    width: 300px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 18px;
+  }
+  
+  #urlInput {
+    width: calc(100% - 22px);
+    padding: 8px;
+    background-color: goldenrod;
+  }
+  #saveButton {
+    width: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: cadetblue;
+  }
+
+  #checkButton {
+    width: 100px;
+    padding: 8px;
+    margin-left: 5px;
+    background-color: cadetblue;
+  }
+  #add-favorite {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px 0;
+  }
+  

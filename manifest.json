@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Store URL Extension",
+    "version": "1.0",
+    "description": "A simple Chrome extension to store URLs.",
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "image16.png",
+            "48": "image48.png",
+            "128": "image128.png"
+        }
+    }
+}
